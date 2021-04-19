@@ -23,7 +23,8 @@ const _course = {
   let selectedCourse = randomGen(courseChoice);
   let selectedSubjects = this[selectedCourse].subjects[randomNum()];
   let selectedUniversities = this[selectedCourse].universities[randomNum()];
-console.log(`${studentName} has been offered 3 choices.${studentName} choose  to do ${selectedCourse}. For this course you will need to focus on ${selectedSubjects}. The best university for you to get the degree of your choice would be  ${selectedUniversities}. ` );   
+console.log(`${studentName} has cleared your exams with a wonderful score.Based on your score  ${studentName} can opt choose  to do ${selectedCourse}.
+For this course you will need to focus on ${selectedSubjects}. For you to be a successful in your field ${selectedCourse}I would suggest you to apply in  ${selectedUniversities}, where you will be able to get the best coaching. ` );   
   }
   }
 const courseChoice = ['Medicine', 'Law', 'Software'];
